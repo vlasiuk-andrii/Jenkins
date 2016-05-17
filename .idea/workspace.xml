@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30ecc06b-e3ba-4674-a9cd-4cfae149e737" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/IETest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/IETest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/IETest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/IETest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ParallelTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ParallelTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ParallelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ParallelTest.java" />
     </list>
     <ignored path="Jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +42,8 @@
       <file leaf-file-name="ParallelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParallelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="271">
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1957#1958#0" expanded="true" />
@@ -536,6 +523,14 @@
       <option name="presentableId" value="Default" />
       <updated>1463128700157</updated>
     </task>
+    <task id="LOCAL-00001" summary="no code changes">
+      <created>1463481994188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463481994188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -611,6 +606,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="no code changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="no code changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -751,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParallelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        <state relative-caret-position="271">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1957#1958#0" expanded="true" />
