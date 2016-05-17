@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ParallelTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ParallelTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="double_search_TestCase"/>
+          <include name="search_TestCase"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- ParallelTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [ParallelTest] -->
