@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ecc06b-e3ba-4674-a9cd-4cfae149e737" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ParallelTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ParallelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ParallelTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/ChromeTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/FirefoxTest.html" />
@@ -18,12 +14,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ParallelTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ParallelTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/FirefoxTest.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/FirefoxTest.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="Jenkins.iws" />
@@ -63,7 +55,7 @@
       <file leaf-file-name="ParallelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParallelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="288">
               <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -579,7 +571,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParallelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="288">
           <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />

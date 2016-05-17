@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11935" started-at="2016-05-17T09:26:56Z" finished-at="2016-05-17T09:27:08Z">
+  <suite name="Suite" duration-ms="15439" started-at="2016-05-17T10:27:48Z" finished-at="2016-05-17T10:28:03Z">
     <groups>
     </groups>
-    <test name="IETest" duration-ms="6433" started-at="2016-05-17T09:26:56Z" finished-at="2016-05-17T09:27:03Z">
+    <test name="IETest" duration-ms="8261" started-at="2016-05-17T10:27:48Z" finished-at="2016-05-17T10:27:56Z">
       <class name="ParallelTest">
-        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@7ca48474]" name="launchapp" is-config="true" duration-ms="3903" started-at="2016-05-17T12:26:56Z" finished-at="2016-05-17T12:27:00Z">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@7ca48474]" name="launchapp" is-config="true" duration-ms="4926" started-at="2016-05-17T13:27:48Z" finished-at="2016-05-17T13:27:53Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapp -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@7ca48474]" name="goToGoogle" duration-ms="1182" started-at="2016-05-17T12:27:00Z" finished-at="2016-05-17T12:27:01Z">
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@7ca48474]" name="goToGoogle" duration-ms="1558" started-at="2016-05-17T13:27:53Z" finished-at="2016-05-17T13:27:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@7ca48474]" name="closeBrowser" is-config="true" duration-ms="1342" started-at="2016-05-17T12:27:01Z" finished-at="2016-05-17T12:27:03Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@7ca48474]" name="closeBrowser" is-config="true" duration-ms="1772" started-at="2016-05-17T13:27:55Z" finished-at="2016-05-17T13:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- ParallelTest -->
     </test> <!-- IETest -->
-    <test name="ChromeTest" duration-ms="10050" started-at="2016-05-17T09:26:56Z" finished-at="2016-05-17T09:27:06Z">
+    <test name="ChromeTest" duration-ms="14107" started-at="2016-05-17T10:27:48Z" finished-at="2016-05-17T10:28:02Z">
       <class name="ParallelTest">
-        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@97e1986]" name="launchapp" is-config="true" duration-ms="3525" started-at="2016-05-17T12:26:56Z" finished-at="2016-05-17T12:27:00Z">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@97e1986]" name="launchapp" is-config="true" duration-ms="4175" started-at="2016-05-17T13:27:48Z" finished-at="2016-05-17T13:27:52Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapp -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@97e1986]" name="goToGoogle" duration-ms="4984" started-at="2016-05-17T12:27:00Z" finished-at="2016-05-17T12:27:05Z">
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@97e1986]" name="goToGoogle" duration-ms="8093" started-at="2016-05-17T13:27:52Z" finished-at="2016-05-17T13:28:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@97e1986]" name="closeBrowser" is-config="true" duration-ms="1523" started-at="2016-05-17T12:27:05Z" finished-at="2016-05-17T12:27:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@97e1986]" name="closeBrowser" is-config="true" duration-ms="1818" started-at="2016-05-17T13:28:00Z" finished-at="2016-05-17T13:28:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- ParallelTest -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="11935" started-at="2016-05-17T09:26:56Z" finished-at="2016-05-17T09:27:08Z">
+    <test name="FirefoxTest" duration-ms="15439" started-at="2016-05-17T10:27:48Z" finished-at="2016-05-17T10:28:03Z">
       <class name="ParallelTest">
-        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@6fb554cc]" name="launchapp" is-config="true" duration-ms="9539" started-at="2016-05-17T12:26:56Z" finished-at="2016-05-17T12:27:06Z">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:ParallelTest@6fb554cc]" name="launchapp" is-config="true" duration-ms="12123" started-at="2016-05-17T13:27:48Z" finished-at="2016-05-17T13:28:00Z">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapp -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@6fb554cc]" name="goToGoogle" duration-ms="1833" started-at="2016-05-17T12:27:06Z" finished-at="2016-05-17T12:27:07Z">
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:ParallelTest@6fb554cc]" name="goToGoogle" duration-ms="2758" started-at="2016-05-17T13:28:00Z" finished-at="2016-05-17T13:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@6fb554cc]" name="closeBrowser" is-config="true" duration-ms="559" started-at="2016-05-17T12:27:07Z" finished-at="2016-05-17T12:27:08Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ParallelTest@6fb554cc]" name="closeBrowser" is-config="true" duration-ms="555" started-at="2016-05-17T13:28:03Z" finished-at="2016-05-17T13:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
