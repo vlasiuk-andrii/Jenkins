@@ -36,7 +36,7 @@ public class ParallelTest{
             System.out.println(" Executing on CHROME");
             DesiredCapabilities cap = DesiredCapabilities.chrome();
             cap.setBrowserName("chrome");
-            Node = "http://10.17.178.179:5557/wd/hub";
+            Node = "http://10.17.178.179:5555/wd/hub";
             driver = new RemoteWebDriver(new URL(Node), cap);
         }
         else if (browser.equalsIgnoreCase("internet explorer"))
@@ -45,7 +45,7 @@ public class ParallelTest{
             DesiredCapabilities cap = DesiredCapabilities.chrome();
             cap.setBrowserName("internet explorer");
             cap.setVersion("11");
-            Node = "http://10.17.178.179:5556/wd/hub";
+            Node = "http://10.17.178.179:5555/wd/hub";
             driver = new RemoteWebDriver(new URL(Node), cap);
         }
         else
