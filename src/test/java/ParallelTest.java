@@ -59,7 +59,7 @@ public class ParallelTest{
     {
         driver.navigate().to(URL);
     }
-
+//m;jmml
     @AfterTest
     public void closeBrowser()
     {
