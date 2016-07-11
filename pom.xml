@@ -1,26 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-    <test name="FirefoxTest">
-        <parameter name="browser" value="firefox" />
-        <classes>
-            <class name="ParallelTest" />
-        </classes>
-    </test>
+    <groupId>epam</groupId>
+    <artifactId>vlasiuk</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <test name="ChromeTest">
-        <parameter name="browser" value="chrome" />
-        <classes>
-            <class name="ParallelTest" />
-        </classes>
-    </test>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.19.1</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <file>src/main/resources/testng.xml</file>
+                </suiteXmlFiles>
+                <properties>
+                    <property>
+                        <name>suitethreadpoolsize</name>
+                        <value>2</value>
+                    </property>
+                </properties>
+            </configuration>
+        </plugin>
+    </plugins>
+    </build>
 
-    <test name="IETest">
-        <parameter name="browser" value="internet explorer" />
-        <classes>
-            <class name="ParallelTest" />
-        </classes>
-    </test>
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>2.42.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>2.42.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>2.42.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+            <version>2.42.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>2.53.0</version>
+        </dependency>
 
-</suite>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.12.4</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>
