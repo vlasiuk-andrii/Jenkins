@@ -16,14 +16,8 @@
             <version>2.19.1</version>
             <configuration>
                 <suiteXmlFiles>
-                    <file>src/main/resources/testng.xml</file>
+                    <suiteXmlFile>src/main/java/testNGpom.xml</suiteXmlFile>
                 </suiteXmlFiles>
-                <properties>
-                    <property>
-                        <name>suitethreadpoolsize</name>
-                        <value>2</value>
-                    </property>
-                </properties>
             </configuration>
         </plugin>
     </plugins>
